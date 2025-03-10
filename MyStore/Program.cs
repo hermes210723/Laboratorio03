@@ -6,6 +6,7 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+//prueba para ver si se guardan los cambios
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
